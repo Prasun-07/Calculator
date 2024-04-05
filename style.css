@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(25,18,12);
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+#container{
+    height: 65vh;
+    width: 24vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb( 12, 19, 25);
+    padding: 2vh 1vw 0.5vh 1vw;
+    border-radius: 1vw;
+    /*border: 0.5vw solid rgb(25,12,19);*/
+    box-shadow: 0.6vw 0.5vh 1vw black;
+}
+input{
+    width: 23vw;
+    height: 13vh;
+    border-radius: 2vw;
+    font-size: 3rem;
+    color: white;
+    text-align: right;
+    margin: 0.1vh 0.3vw;
+    background-color: rgb(28, 45, 55);
+    border: none;
+    padding: 0 0.5vw;
+}
+button{
+    border: none;
+    width: 4.9vw;
+    height: 9vh;
+    border-radius: 50%;
+    font-size: 2.4rem;
+    color: white;
+}
+.ac{
+    background-color: rgb(73, 66, 99);
+    transition-duration: 0.4s;
+}
+.ac:hover{
+    background-color: rgb(73, 66, 99);
+    border-radius: 10%;
+}
+.num{
+    background-color: rgb(19, 30, 36);
+    transition-duration: 0.4s;
+}
+.num:hover{
+    background-color: rgb(0,77,107);
+    border-radius: 10%;
+}
+.operator{
+    background-color: rgb(55, 73, 85);
+    transition-duration: 0.4s;
+}
+.operator:hover{
+    background-color: rgb(0,77,107);
+    border-radius: 10%;
+}
+.eql{
+    background-color: rgb(0,77,107);
+    transition-duration: 0.4s;
+}
+.eql:hover{
+    background-color: rgb(0,77,107);
+    border-radius: 10%;
+}
+.del{
+    font-size: 2rem;
+}
+
+
